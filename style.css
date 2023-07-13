@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0B1D26;
+    background-image: url(/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gilroy';
+}
+.MNTN {
+    font-size: 32px;
+}
+h1 {
+    margin: 32px 0;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+h2 {
+    margin: 32px 0;
+    font-size: 88px;
+    color: #FFFFFF;
+}
+h3 {
+    color: #FBD784;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px 200px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 40px;
+}
+.account {
+    display: flex;
+    align-items: center;
+}
+.account a {
+    margin-left: 8px;
+}
+#description {
+    display: flex;
+    justify-content: center;
+    width: 950px;
+}
+.line {
+    background-color: #FBD784;
+    width: 72px;
+    height: 2px;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 6px;
+}
+.arrow-down {
+    display: flex;
+}
+.arrow-down > p {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.description {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-left: 310px;
+}
+.description h1 {
+    width: 1050px;
+}
+.description > p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.text {
+    width: 632px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.description1 > h2 {
+    width: 555px;
+    font-size: 64px;
+}
+.read-more {
+    color: var(--accent, #FBD784);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 20px;
+}
+.description1 {
+    margin-top: 1050px;
+    margin-left: 210px;
+}
+.card1::before {
+    position: absolute;
+    content: "";
+    background-image: url(/1card.png);
+    width: 566px;
+    height: 720px;
+    right: 150px;
+    bottom: -1380px;
+}
+.arrow-right {
+    display: flex;
+}
